@@ -16,5 +16,19 @@ namespace HotelSystem
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AddCustomer c = new AddCustomer();
+            c.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ViewCustomers v = new ViewCustomers();
+            v.Show();
+        }
     }
 }
